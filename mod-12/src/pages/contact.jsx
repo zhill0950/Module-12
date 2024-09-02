@@ -4,6 +4,13 @@ const Contact = () => {
   return (
 <div>
   <h2>Contact Me</h2>
+
+  <div id='contact'>
+    <input type='text' placeholder='Name' id='name'/>
+    <input type='text' placeholder='Email' id='email'/>
+    <textarea placeholder='Message' id='message'></textarea>
+    <button id='submit'>Submit</button>
+  </div>
   
   <div id='imgCont'>
     <a href='http://www.github.com'>
